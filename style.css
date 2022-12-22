@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 1000px;
+    margin: 0 auto;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 48px;
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn-onas{
+    margin: 30px 25px;
+    background: #0071E3;
+    border-radius: 4px;
+    width: 232px;
+    height: 42px;
+    color: white;
+    border: solid transparent;
+}
+.btn-onas:hover{
+    background: #3999fa;
+    transition: .5s ease;
+}
+.box-element{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.box-humans{
+    margin-top: 20px;
+    width: 282px;
+    height: 223px;
+    background: #F0F0F0;
+    border: 1px #0071E3 solid ;
+    border-radius: 15px;
+}
+
+.text-name{
+    color: black ;
+    font-weight: 300;
+    padding: 25px;
+}
+.company_name{
+    padding: 25px;
+    color: gray;
+}
+.Website_name{
+    color: gray;
+    padding: 25px;
+}
+.Phone{
+    color: gray;
+    padding: 25px;
+}
+.btn{
+    margin: 30px 25px;
+    background: #0071E3;
+    border-radius: 4px;
+    width: 232px;
+    height: 42px;
+    color: white;
+    border: solid transparent;
+}
